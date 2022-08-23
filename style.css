@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5372F0;
+}
+
+.wrapper {
+    background-color: #FFF;
+    padding: 10px 25px 20px;
+    border-radius: 10px;
+    max-width: 490px;
+    width: 100%;
+}
+
+.wrapper .title {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .title ion-icon {
+    transform: rotateY(180deg);
+    margin-right: 5px;
+}
+
+.wrapper .content p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.wrapper .content ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 8px;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.wrapper .content ul li {
+    font-size: 12px;
+    background-color: #f2f2f2;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .content ul li ion-icon {
+    margin-left: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background-color: #DFDFDF;
+    border-radius: 50%;
+}
+
+.wrapper .content ul input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+.wrapper .details {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .details p {
+    font-size: 14px;
+}
+
+.wrapper .details button {
+    border: none;
+    outline: none;
+    padding: 5px 12px;
+    background-color: #5372F0;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+/* #5372F0 */
+
+
+/* #a6a6a6 */
+
+
+/* #F2F2F2 */
+
+
+/* #E3D1E1 */
+
+
+/* #808080 */
+
+
+/* #DFDFDF */
